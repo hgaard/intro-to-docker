@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="resources/docker-large.jpg" -->
+# Introduction to Docker
+
+![docker](data:image/jpg;base64,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)
+
+<aside class="notes"><p>intro page</p>
+</aside></script></section><section ><section data-markdown><script type="text/template">
+# What
+</script></section><section data-markdown><script type="text/template">
+explain
+</script></section></section><section  data-markdown><script type="text/template">
+The End.</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
