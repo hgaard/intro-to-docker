@@ -1,3 +1,10 @@
+---
+title: Intro to Docker
+theme: solarized
+revealOptions:
+    transition: 'fade'
+---
+
 <!-- .slide: data-background="resources/docker-large.jpg" -->
 # Introduction to Docker
 
