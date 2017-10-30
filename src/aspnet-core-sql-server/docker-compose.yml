@@ -11,5 +11,5 @@ services:
         ports:
             - "1433:1433"
         environment:
-            SA_PASSWORD: "Allianz1"
+            SA_PASSWORD: "SecretP@ssw0rd"
             ACCEPT_EULA: "Y"
